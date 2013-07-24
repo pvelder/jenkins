@@ -23,7 +23,7 @@
 # limitations under the License.
 #
 
-include_recipe "java"
+#include_recipe "java"
 include_recipe "runit"
 
 user node['jenkins']['server']['user'] do
